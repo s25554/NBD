@@ -1,0 +1,8 @@
+MongoDB shell version v5.0.8
+connecting to: mongodb://127.0.0.1:27017/nbd?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("b3c47b0c-794e-4708-ad4b-789cd0696ddf") }
+MongoDB server version: 5.0.8
+uncaught exception: TypeError: db.people.updateMany(...).toArray is not a function :
+@zapytanie_10.js:1:11
+failed to load: zapytanie_10.js
+exiting with code -3

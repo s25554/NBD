@@ -1,0 +1,8 @@
+MongoDB shell version v5.0.8
+connecting to: mongodb://127.0.0.1:27017/nbd?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("28dbd95e-4235-4a70-a916-b760dcb78ba5") }
+MongoDB server version: 5.0.8
+uncaught exception: TypeError: db.people.insert(...).toArray is not a function :
+@zapytanie_6.js:1:11
+failed to load: zapytanie_6.js
+exiting with code -3

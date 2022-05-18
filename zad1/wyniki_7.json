@@ -1,0 +1,8 @@
+MongoDB shell version v5.0.8
+connecting to: mongodb://127.0.0.1:27017/nbd?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("d22133bd-d037-43a9-8e05-875c7a9d5063") }
+MongoDB server version: 5.0.8
+uncaught exception: TypeError: db.people.deleteMany(...).toArray is not a function :
+@zapytanie_7.js:1:11
+failed to load: zapytanie_7.js
+exiting with code -3
