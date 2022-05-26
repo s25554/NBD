@@ -1,0 +1,23 @@
+CREATE (CapitanAmerica:Movie {title:'Captain America: The First Avenger', released:1999, tagline:'Steve Rogers, a rejected military soldier, transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a warmonger and a terrorist organization.'})
+
+CREATE (Chris:Person {name:'Chris Evans', born:1960})               
+CREATE (Tommy:Person {name:'Tommy Lee Jones', born:1960})           
+CREATE (Hugo:Person {name:'Hugo Weaving', born:1960})               
+
+CREATE (JoeJ:Person {name:'Joe Johnston', born:1967})              
+
+CREATE (Christoper:Person {name:'Christopher Markus', born:1965})   
+CREATE (Stephen:Person {name:'Stephen McFeely', born:1952})        
+CREATE (Joe:Person {name:'Joe Simon', born:1952})         
+CREATE
+(Chris)-[:ACTED_IN {roles:['Kapitan Ameryka']}]->(CapitanAmerica),              //
+(Tommy)-[:ACTED_IN {roles:['Pułkownik Chester Phillips']}]->(CapitanAmerica),   //
+(Hugo)-[:ACTED_IN {roles:['Johann Schmidt']}]->(CapitanAmerica),                //
+
+(JoeJ)-[:DIRECTED]->(CapitanAmerica),
+
+(Christoper)-[:WROTE]->(CapitanAmerica), 
+(Stephen)-[:WROTE]->(CapitanAmerica), 
+(Joe)-[:WROTE]->(CapitanAmerica),
+
+(JoeJ)-[:PRODUCED]->(CapitanAmerica)

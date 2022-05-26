@@ -1,0 +1,186 @@
+﻿[
+  {
+    "people": {
+"identity": 177,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1952,
+"name": "Stephen McFeely"
+      }
+    },
+    "a": {
+"identity": 171,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Steve Rogers, a rejected military soldier, transforms into Captain America after taking a dose of a \"Super-Soldier serum\". But being Captain America comes at a price as he attempts to take down a warmonger and a terrorist organization.",
+"title": "Captain America: The First Avenger",
+"released": 1999
+      }
+    }
+  },
+  {
+    "people": {
+"identity": 174,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1960,
+"name": "Hugo Weaving"
+      }
+    },
+    "a": {
+"identity": 171,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Steve Rogers, a rejected military soldier, transforms into Captain America after taking a dose of a \"Super-Soldier serum\". But being Captain America comes at a price as he attempts to take down a warmonger and a terrorist organization.",
+"title": "Captain America: The First Avenger",
+"released": 1999
+      }
+    }
+  },
+  {
+    "people": {
+"identity": 175,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1967,
+"name": "Joe Johnston"
+      }
+    },
+    "a": {
+"identity": 171,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Steve Rogers, a rejected military soldier, transforms into Captain America after taking a dose of a \"Super-Soldier serum\". But being Captain America comes at a price as he attempts to take down a warmonger and a terrorist organization.",
+"title": "Captain America: The First Avenger",
+"released": 1999
+      }
+    }
+  },
+  {
+    "people": {
+"identity": 173,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1960,
+"name": "Tommy Lee Jones"
+      }
+    },
+    "a": {
+"identity": 171,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Steve Rogers, a rejected military soldier, transforms into Captain America after taking a dose of a \"Super-Soldier serum\". But being Captain America comes at a price as he attempts to take down a warmonger and a terrorist organization.",
+"title": "Captain America: The First Avenger",
+"released": 1999
+      }
+    }
+  },
+  {
+    "people": {
+"identity": 172,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1960,
+"name": "Chris Evans"
+      }
+    },
+    "a": {
+"identity": 171,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Steve Rogers, a rejected military soldier, transforms into Captain America after taking a dose of a \"Super-Soldier serum\". But being Captain America comes at a price as he attempts to take down a warmonger and a terrorist organization.",
+"title": "Captain America: The First Avenger",
+"released": 1999
+      }
+    }
+  },
+  {
+    "people": {
+"identity": 176,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1965,
+"name": "Christopher Markus"
+      }
+    },
+    "a": {
+"identity": 171,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Steve Rogers, a rejected military soldier, transforms into Captain America after taking a dose of a \"Super-Soldier serum\". But being Captain America comes at a price as he attempts to take down a warmonger and a terrorist organization.",
+"title": "Captain America: The First Avenger",
+"released": 1999
+      }
+    }
+  },
+  {
+    "people": {
+"identity": 178,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1952,
+"name": "Joe Simon"
+      }
+    },
+    "a": {
+"identity": 171,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Steve Rogers, a rejected military soldier, transforms into Captain America after taking a dose of a \"Super-Soldier serum\". But being Captain America comes at a price as he attempts to take down a warmonger and a terrorist organization.",
+"title": "Captain America: The First Avenger",
+"released": 1999
+      }
+    }
+  },
+  {
+    "people": {
+"identity": 175,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1967,
+"name": "Joe Johnston"
+      }
+    },
+    "a": {
+"identity": 171,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Steve Rogers, a rejected military soldier, transforms into Captain America after taking a dose of a \"Super-Soldier serum\". But being Captain America comes at a price as he attempts to take down a warmonger and a terrorist organization.",
+"title": "Captain America: The First Avenger",
+"released": 1999
+      }
+    }
+  }
+]
