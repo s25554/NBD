@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvuebq7eNgcFPMYMpkTePlcGki+sOXxYA
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s25554>; rel="up"
+Last-Modified: Tue, 31 May 2022 12:46:44 GMT
+ETag: "7lm9gYUUC7AyrICwpM0rLd"
+Date: Tue, 31 May 2022 12:48:28 GMT
+Content-Type: application/json
+Content-Length: 68
+
+{"name": "Kamil", "lastName": "Walo", "age": 25,"nationality": "PL"}

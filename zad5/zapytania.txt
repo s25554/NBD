@@ -1,0 +1,33 @@
+1.	Umieść w bazie (nazwa bucketa ma być Twoim numerem indeksu poprzedzonym literą „s”) 5 wartości, gdzie każda z nich ma być dokumentem json mającym 4 pola co najmniej dwóch różnych typów. 
+curl –XPOST -H "Content-Type: application/json" -d '{"name": "Kamil", "lastName": "Walo", "age": 25, "balance":999}' -i http://192.168.1.45:8098/buckets/s25554/keys/kwalo
+curl –XPOST -H "Content-Type: application/json" -d '{"name": "Barbara", "lastName": "Krzys", "age": 10, "balance":55}' -i http://192.168.1.45:8098/buckets/s25554/keys/bkrzys
+curl –XPOST -H "Content-Type: application/json" -d '{"name": "Joanna", "lastName": "Idzikowska", "age": 45, "balance":2222}' -i http://192.168.1.45:8098/buckets/s25554/keys/jnowakowska
+curl –XPOST -H "Content-Type: application/json" -d '{"name": "Grzegorz", "lastName": "Brzeczyszczykiewicz", "age": 88, "balance":777}' -i http://192.168.1.45:8098/buckets/s25554/keys/gbrzecz
+curl –XPOST -H "Content-Type: application/json" -d '{"name": "Jakub", "lastName": "Nowak", "age": 21, "balance":888}' -i http://192.168.1.45:8098/buckets/s25554/keys/jnowak
+
+2.	Pobierz z bazy jedną z dodanych przez Ciebie wartości. 
+curl -i http://192.168.1.45:8098/buckets/s25554/keys/kwalo
+ 
+3.	Zmodyfikuj jedną z wartości – dodając dodatkowe pole do dokumentu. 
+curl -i –XPUT -H "Content-Type: application/json" -d '{"name": "Kamil", "lastName": "Walo", "age": 25, "balance":999,"nationality": "PL"}' http://192.168.1.45:8098/buckets/s25554/keys/kwalo
+
+4.	Zmodyfikuj jedną z wartości – usuwając jedną pole z wybranego dokumentu
+curl -i –XPUT -H "Content-Type: application/json" -d '{"name": "Kamil", "lastName": "Walo", "age": 25,"nationality": "PL"}' http://192.168.1.45:8098/buckets/s25554/keys/kwalo
+
+5.	Zmodyfikuj jedną z wartości – zmieniając wartość jednego z pól
+curl -i –XPUT -H "Content-Type: application/json" -d '{"name": "Kamil", "lastName": "Walo", "age": 55,"nationality": "PL"}' http://192.168.1.45:8098/buckets/s25554/keys/kwalo
+
+6.	Usuń jeden z dokumentów z bazy
+curl -i -XDELETE http://192.168.1.45:8098/buckets/s25554/keys/kwalo
+
+7.	Spróbuj pobrać z bazy wartość, która nie istnieje w tej bazie. 
+curl -i http://192.168.1.45:8098/buckets/s25554/keys/kwaloooooooooooooooooo
+
+8.	Dodaj do bazy 1 dokument json (zawierający 1 pole), ale nie specyfikuj klucza. 
+curl –XPOST -H "Content-Type: application/json" -d '{"name": "Kamil", "lastName": "Walo", "age": 25, "balance":999}' -i http://192.168.1.45:8098/buckets/s25554/keys
+
+9.	Pobierz z bazy element z zadania 8. 
+curl -i http://192.168.1.45:8098/buckets/s25554/keys/P3elZkBTFjWA4hndwoT4YqrtSCx
+
+10.	Usuń z bazy element z zadania 8. 
+curl -i -XDELETE http://192.168.1.45:8098/buckets/s25554/keys/P3elZkBTFjWA4hndwoT4YqrtSCx
