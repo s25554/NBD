@@ -1,0 +1,9 @@
+---WSTAWIANIE DOKUMENTU---
+---ODCZYTYWANIE OBIEKTU Z BAZY---
+{name: Jakub, lastName: Nowak, age: 25, balance:888}
+---MODYFIKACJA OBIEKTU---
+---ODCZYTYWANIE OBIEKTU Z BAZY---
+{name: Kamil, lastName: Walo, age: 25, balance:888}
+---USUWANIE OBIEKTU Z BAZY---
+---ODCZYTYWANIE USUNIĘTEGO OBIEKTU Z BAZY---
+not found
