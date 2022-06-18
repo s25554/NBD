@@ -1,7 +1,79 @@
 ﻿[
   {
-    "director": {
-"identity": 108,
+    "c": {
+"identity": 1302,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1967,
+"name": "Lilly Wachowski"
+      }
+    }
+  },
+  {
+    "c": {
+"identity": 1303,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1965,
+"name": "Lana Wachowski"
+      }
+    }
+  },
+  {
+    "c": {
+"identity": 1302,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1967,
+"name": "Lilly Wachowski"
+      }
+    }
+  },
+  {
+    "c": {
+"identity": 1303,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1965,
+"name": "Lana Wachowski"
+      }
+    }
+  },
+  {
+    "c": {
+"identity": 1302,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1967,
+"name": "Lilly Wachowski"
+      }
+    }
+  },
+  {
+    "c": {
+"identity": 1303,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1965,
+"name": "Lana Wachowski"
+      }
+    }
+  },
+  {
+    "c": {
+"identity": 1405,
 "labels": [
         "Person"
       ],
@@ -12,20 +84,8 @@
     }
   },
   {
-    "director": {
-"identity": 6,
-"labels": [
-        "Person"
-      ],
-"properties": {
-"born": 1965,
-"name": "Lana Wachowski"
-      }
-    }
-  },
-  {
-    "director": {
-"identity": 5,
+    "c": {
+"identity": 1302,
 "labels": [
         "Person"
       ],
@@ -36,86 +96,26 @@
     }
   },
   {
-    "director": {
-"identity": 25,
+    "c": {
+"identity": 1303,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1965,
+"name": "Lana Wachowski"
+      }
+    }
+  },
+  {
+    "c": {
+"identity": 1322,
 "labels": [
         "Person"
       ],
 "properties": {
 "born": 1967,
 "name": "James Marshall"
-      }
-    }
-  },
-  {
-    "director": {
-"identity": 6,
-"labels": [
-        "Person"
-      ],
-"properties": {
-"born": 1965,
-"name": "Lana Wachowski"
-      }
-    }
-  },
-  {
-    "director": {
-"identity": 5,
-"labels": [
-        "Person"
-      ],
-"properties": {
-"born": 1967,
-"name": "Lilly Wachowski"
-      }
-    }
-  },
-  {
-    "director": {
-"identity": 6,
-"labels": [
-        "Person"
-      ],
-"properties": {
-"born": 1965,
-"name": "Lana Wachowski"
-      }
-    }
-  },
-  {
-    "director": {
-"identity": 5,
-"labels": [
-        "Person"
-      ],
-"properties": {
-"born": 1967,
-"name": "Lilly Wachowski"
-      }
-    }
-  },
-  {
-    "director": {
-"identity": 6,
-"labels": [
-        "Person"
-      ],
-"properties": {
-"born": 1965,
-"name": "Lana Wachowski"
-      }
-    }
-  },
-  {
-    "director": {
-"identity": 5,
-"labels": [
-        "Person"
-      ],
-"properties": {
-"born": 1967,
-"name": "Lilly Wachowski"
       }
     }
   }

@@ -1,3 +1,31 @@
+1.
+MATCH (movie:Movie) RETURN movie
+
+2.
+MATCH (a: Person {name: "Hugo Weaving"})-[:ACTED_IN]->(b) RETURN b
+
+3.
+MATCH (a:Person {name: "Hugo Weaving"}) - [:ACTED_IN] ->(b)<- [:DIRECTED]-(c) RETURN c
+
+4.
+MATCH (a:Person {name:"Hugo Weaving"})-[:ACTED_IN]->(b)<-[:ACTED_IN]-(c) RETURN c
+
+5.
+MATCH (a:Movie {title:"The Matrix"})<-[:ACTED_IN]-(b)-[:ACTED_IN]->(c) RETURN c
+
+6.
+MATCH (a:Person)-[b:ACTED_IN]->(c)  RETURN a, count(b) as  moviesCount
+
+7.
+MATCH (a:Person)-[:WROTE]->(b:Movie) WITH a, b MATCH (a)-[:DIRECTED]->(b) RETURN a,b
+
+8.
+MATCH (Person{name: "Hugo Weaving"})-[:ACTED_IN]->(a)<-[:ACTED_IN]-(c:Person {name: "Keanu Reeves"}) RETURN a
+
+
+
+9.
+
 CREATE (CapitanAmerica:Movie {title:'Captain America: The First Avenger', released:1999, tagline:'Steve Rogers, a rejected military soldier, transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a warmonger and a terrorist organization.'})
 
 CREATE (Chris:Person {name:'Chris Evans', born:1960})               

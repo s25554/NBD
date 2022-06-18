@@ -1,79 +1,43 @@
 ﻿[
   {
-    "people": {
-"identity": 71,
+    "c": {
+"identity": 1298,
 "labels": [
         "Person"
       ],
 "properties": {
-"born": 1956,
-"name": "Tom Hanks"
+"born": 1964,
+"name": "Keanu Reeves"
       }
     }
   },
   {
-    "people": {
-"identity": 107,
+    "c": {
+"identity": 1300,
 "labels": [
         "Person"
       ],
 "properties": {
-"born": 1949,
-"name": "Jim Broadbent"
+"born": 1961,
+"name": "Laurence Fishburne"
       }
     }
   },
   {
-    "people": {
-"identity": 106,
+    "c": {
+"identity": 1299,
 "labels": [
         "Person"
       ],
 "properties": {
-"born": 1966,
-"name": "Halle Berry"
+"born": 1967,
+"name": "Carrie-Anne Moss"
       }
     }
   },
   {
-    "people": {
-"identity": 119,
-"labels": [
-        "Person"
-      ],
-"properties": {
-"born": 1940,
-"name": "John Hurt"
-      }
-    }
-  },
-  {
-    "people": {
-"identity": 118,
-"labels": [
-        "Person"
-      ],
-"properties": {
-"born": 1946,
-"name": "Stephen Rea"
-      }
-    }
-  },
-  {
-    "people": {
-"identity": 117,
-"labels": [
-        "Person"
-      ],
-"properties": {
-"born": 1981,
-"name": "Natalie Portman"
-      }
-    }
-  },
-  {
-    "people": {
-"identity": 120,
+    "c": {
+"identity": 1417,
 "labels": [
         "Person"
       ],
@@ -84,80 +48,44 @@
     }
   },
   {
-    "people": {
-"identity": 3,
+    "c": {
+"identity": 1414,
 "labels": [
         "Person"
       ],
 "properties": {
-"born": 1961,
-"name": "Laurence Fishburne"
+"born": 1981,
+"name": "Natalie Portman"
       }
     }
   },
   {
-    "people": {
-"identity": 2,
+    "c": {
+"identity": 1416,
 "labels": [
         "Person"
       ],
 "properties": {
-"born": 1967,
-"name": "Carrie-Anne Moss"
+"born": 1940,
+"name": "John Hurt"
       }
     }
   },
   {
-    "people": {
-"identity": 1,
+    "c": {
+"identity": 1415,
 "labels": [
         "Person"
       ],
 "properties": {
-"born": 1964,
-"name": "Keanu Reeves"
+"born": 1946,
+"name": "Stephen Rea"
       }
     }
   },
   {
-    "people": {
-"identity": 3,
-"labels": [
-        "Person"
-      ],
-"properties": {
-"born": 1961,
-"name": "Laurence Fishburne"
-      }
-    }
-  },
-  {
-    "people": {
-"identity": 2,
-"labels": [
-        "Person"
-      ],
-"properties": {
-"born": 1967,
-"name": "Carrie-Anne Moss"
-      }
-    }
-  },
-  {
-    "people": {
-"identity": 1,
-"labels": [
-        "Person"
-      ],
-"properties": {
-"born": 1964,
-"name": "Keanu Reeves"
-      }
-    }
-  },
-  {
-    "people": {
-"identity": 8,
+    "c": {
+"identity": 1305,
 "labels": [
         "Person"
       ],
@@ -168,20 +96,8 @@
     }
   },
   {
-    "people": {
-"identity": 3,
-"labels": [
-        "Person"
-      ],
-"properties": {
-"born": 1961,
-"name": "Laurence Fishburne"
-      }
-    }
-  },
-  {
-    "people": {
-"identity": 2,
+    "c": {
+"identity": 1299,
 "labels": [
         "Person"
       ],
@@ -192,14 +108,98 @@
     }
   },
   {
-    "people": {
-"identity": 1,
+    "c": {
+"identity": 1300,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1961,
+"name": "Laurence Fishburne"
+      }
+    }
+  },
+  {
+    "c": {
+"identity": 1298,
 "labels": [
         "Person"
       ],
 "properties": {
 "born": 1964,
 "name": "Keanu Reeves"
+      }
+    }
+  },
+  {
+    "c": {
+"identity": 1403,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1966,
+"name": "Halle Berry"
+      }
+    }
+  },
+  {
+    "c": {
+"identity": 1404,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1949,
+"name": "Jim Broadbent"
+      }
+    }
+  },
+  {
+    "c": {
+"identity": 1368,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1956,
+"name": "Tom Hanks"
+      }
+    }
+  },
+  {
+    "c": {
+"identity": 1298,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1964,
+"name": "Keanu Reeves"
+      }
+    }
+  },
+  {
+    "c": {
+"identity": 1300,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1961,
+"name": "Laurence Fishburne"
+      }
+    }
+  },
+  {
+    "c": {
+"identity": 1299,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1967,
+"name": "Carrie-Anne Moss"
       }
     }
   }
