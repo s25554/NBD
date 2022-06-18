@@ -1,0 +1,61 @@
+1.
+MATCH (t1:town{name:"Darjeeling"}),(t2{name:"Sandakphu"}), path= ShortestPath((t1)-[*]-(t2)) RETURN path
+
+2.
+MATCH (t1 {name:"Darjeeling"}),(t2 {name:"Sandakphu"}), path=ShortestPath((t1)-[relation*]-(t2))
+WHERE ALL(a IN relation WHERE a.winter="true")
+RETURN path
+
+3.
+MATCH a = (town { name: "Darjeeling" })-[e*..5]->({ name: "Sandakphu" })
+RETURN a, REDUCE(d = 0, r IN e | d + r.distance) AS dystans
+ORDER BY dystans
+
+4.
+MATCH path = (a:town { name: "Darjeeling" })-[:twowheeler*]->(miejsce)
+WHERE ALL (r IN relationships(path) WHERE r.summer = 'true')
+RETURN a,path
+
+5.
+MATCH (airport:Airport)<-[:ORIGIN]-(flight:Flight) 
+RETURN airport, COUNT(flight) as liczbaLotow
+ORDER BY COUNT(flight) desc 
+
+6.
+MATCH a=(b:Airport)<-[*]-(airportStrt:Airport {name: "LAX"}), ()-[ORIGIN]->(Airport ) 
+WITH 
+a,b, 
+reduce(totalPrice=0,
+rel IN relationships(a)|totalPrice + rel.price) as koszt
+WHERE koszt < 3000  return distinct b
+
+
+7.
+MATCH (a:Airport { name:"LAX" }), (b: Airport {name:'DAY'}), c = (a)-[:CONNECTION*]->(b)
+WITH c, relationships(c) AS connection
+return c, REDUCE(price = 0, connection IN connection | price + connection.price) AS cena 
+ORDER BY cena
+
+8.
+MATCH airport = (stop:Airport{name: "DAY"})<-[CHEAPEST_FLIGHT*]-(start:Airport {name: "LAX"}), (stop:Airport)<-[:DESTINATION]-(), 
+()-[:ORIGIN]->(start:Airport ) 
+WITH airport, reduce(sum=0, rel IN relationships(airport)|sum + rel.price) as cost 
+RETURN airport, cost 
+ORDER BY cost 
+LIMIT 1
+
+9.
+MATCH airport=(a:Airport)<-[c:CHEAPEST_FLIGHT]-(b:Airport) 
+WITH c, a.name + b.name as special 
+RETURN  c.airline,  count(DISTINCT special) as specialCount
+ORDER BY specialCount DESC
+
+10.
+MATCH x = (a:Airport)<-[:ORIGIN]-(Flight)-[:DESTINATION]->(b:Airport)<-[:ORIGIN]-(:Flight)-[:DESTINATION]->(c:Airport)
+WHERE not(a=b) AND not(a=c) AND not(b=c)
+WITH x, REDUCE(sum = 0, n IN [x IN NODES(x) 
+WHERE 'Flight' IN LABELS(x)] |
+sum + [(n)<-[:ASSIGN]-(ticket {class: 'economy'}) | ticket.price][0]) as cena
+RETURN x, cena
+ORDER BY cena 
+LIMIT 1
